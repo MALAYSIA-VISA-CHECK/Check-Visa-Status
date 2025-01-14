@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immigration Department of Malaysia</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body class="body">
+    <div class="header">
+        <img src="./IMG_20250112_234652.png" alt="banner" height="7%" width="100%">
+    </div>
+<div class="container">
+    <div class="container-header">
+        <h2>INQUIRY FOR RENEWAL VISA AND PASS STATUS</h2>
+    </div>
+    <div class="form-master">
+        <div class="student-1">
+            <div class="form-group">
+                <label for="documentNo">Document No</label>
+                <input type="text" id="documentNo" name="documentNo">
+            </div>
+            <div class="form-group">
+                <label for="countryIssue">Country Issue</label>
+                <select id="countryIssue" name="countryIssue">
+                    <option value="BANGLADESH">BANGLADESH</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="documentduedate">Document Due Date</label>
+                <input type="date" id="documentduedate" name="documentduedate">
+            </div>
+        </div>
+        <div class="student-2">
+            <div class="form-group">
+                <label for="applicationNo">Application No</label>
+                <input type="text" id="applicationNo" name="applicationNo">
+            </div>
+            <div class="form-group">
+                <label for="transactionType">Transaction Type</label>
+                <select id="transactionType" name="transactionType">
+                    <option value="LANJUTAN">LANJUTAN</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="applicationDate">Application Date</label>
+                <input type="date" id="applicationDate" name="applicationDate">
+            </div>
+         </div>       
+    </div>
+    <div>
+        <button type="button" onclick="searchDocument()">SEARCH</button>
+        <button type="button" onclick="resetForm()">RESET</button>
+    </div>
+        <table class="table" id="resultTable"> 
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Citizen</th>
+                    <th>Document No</th>
+                    <th>Last Pass Due Date</th>
+                    <th>Current Pass Type</th>
+                    <th>Renewal Pass Duration (Month)</th>
+                    <th>Current Pass Due Date</th>
+                    <th>Current Visa Type</th>
+                    <th>Application Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="totalRecord">Total Record: 0</p>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

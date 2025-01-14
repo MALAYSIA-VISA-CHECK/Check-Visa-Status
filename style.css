@@ -1,0 +1,94 @@
+
+.body {
+    background-color: #003366;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.container {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 100px;
+    background-color: white;
+    color: black;
+    width: 1700px;
+    height: 600px;
+}
+.container p {
+    font-weight: bold;
+}
+.container-header {
+    background-color: #144c85;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.form-master{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.student-1 {
+    margin-right: 50px;
+}
+.student-2 {
+    margin-left: 50px;
+}
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    width: 800px;
+}
+
+.form-group label {
+    background-color: #5199dc;
+    padding: 10px;
+    display: inline;
+    margin-right: 5px;
+    font-size: larger;
+    font-weight: bold;
+    width: 500px;
+}
+.form-group input, .form-group select {
+    width: 1500px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.form-group button {
+    padding: 5px 20px;
+    background-color: rgb(206, 206, 206);
+    color: black;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 120px;
+    margin-right: 50px;
+}
+.form-group button:hover {
+    background-color: #0055a5;
+}
+.table {
+    width: 1700px;
+    border-collapse: collapse;
+    margin-top: 50px;
+    height: 180px;
+}
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.table th {
+    background-color: #5199dc;
+    color: black;
+    text-align: center;
+    height: 50px;
+}

@@ -1,0 +1,87 @@
+        /* Responsive Design */ 
+        @media (max-width: 768px) { 
+            .header {
+                background-color: #003366;
+                color: white;
+                padding: 5px;
+                text-align: center;
+                width: 375px;
+            }
+    
+            .container { 
+                width: 365px; 
+                height: 290px;
+                margin: 5px; 
+                padding: 5px;
+                margin-top: 0px;
+            }
+            .container-header {
+                padding: 1px;
+                margin-bottom: 5px;
+                width: 365px;
+                height: 6%;
+                font-size: 5pt;
+            }
+            .container-header h2 {
+                padding-top: 0px;
+                margin-top: 1px;
+                margin-left: 0.5px;
+            }
+            .form-master { 
+                flex-direction: row; 
+                width: auto;
+                padding: 0px;
+                height: 40%;
+            } 
+            .student-1 {
+                margin-right: 10px;
+            }
+            .student-2 {
+                margin-left: 0px;
+            }
+            .student-1, .student-2 {
+                width: 180px;
+            }
+            .form-group {
+                width: 100%;
+                margin-bottom: 5px;
+                height: 27%;
+            }
+            .form-group label {
+                padding: 2px;
+                margin: 0px;
+                margin-right: 2px;
+                width: 30%;
+                font-size: 7pt;
+            }
+            .form-group input, .form-group select {
+                padding: 2px;
+                width: 70%;
+                font-size: 7pt;
+            }
+            .form-group button { 
+                width: 20%; 
+                height: 20px;
+                margin: 2px;
+                margin-right: 10px;
+                padding: 2px;
+                border: 0px;
+                font-size: 6pt;
+            }
+            .table { 
+                width: 100%; 
+                margin-top: 5px; 
+                height: 30%; 
+                overflow-x: auto; 
+                display: inline-block;  
+                font-size: 5pt;
+            }
+            .table th, .table td {
+                padding: 2px;
+                height: 40px;
+            }
+            .container p {
+                font-size: 8pt;
+            }
+        }
+    
