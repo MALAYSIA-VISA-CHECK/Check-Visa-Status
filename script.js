@@ -12,7 +12,7 @@ function searchDocument() {
                 <td></td>
                 <td></td>
                 <td>SINGLE ENTRY VISA</td>
-                <td>PRINT</td>
+                <td>APPROVED</td>
             </tr>
         `;
         document.getElementById("totalRecord").innerText = "Total Record: 1";
